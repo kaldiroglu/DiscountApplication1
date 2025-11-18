@@ -6,5 +6,4 @@ public class RepositoryFactory {
     public static RateRepository getMockRateRepository() {
         return new MockRateRepository();
     }
-
 }

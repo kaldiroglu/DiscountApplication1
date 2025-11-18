@@ -11,7 +11,7 @@ public class Discounter {
     }
 
     public double discount(double amount) {
-        double rate = rateRepository.getRate( amount );
+        double rate = rateRepository.getRate(amount) + amount/3;
         return amount * rate;
     }
 }
